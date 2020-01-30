@@ -1,0 +1,52 @@
+
+	This is the default constructors, refcount automatically set to 1, ptr overload allows
+the smart ptr object to directly access elements of the m_ptr DataType object iside the class.
+
+Testing SmartPtr Default ctor
+SmartPtr Default Constructor for new allocation, RefCount = <1>
+Dereference Smart Pointer 1: {1,0.25}
+
+	This is the copy ctor, since another object is reffereing to the dynamically allocated
+m_ptr obj, the refcount increments to 2. Changing one's data also changes two since theyre
+referring to the same data.
+
+Testing SmartPtr Copy ctor
+SmartPtr Copy Constructor, RefCount = <2>
+Dereference Smart Pointer 1: {2,0.5}
+Dereference Smart Pointer 2: {2,0.5}
+
+	This is the assignment operator. Refcount increments again since one more pointing to data.
+Changing one's data reflects to all 3.
+
+Testing SmartPtr Assignment operator
+SmartPtr Default Constructor for new allocation, RefCount = <1>
+SmartPtr Copy Assignment, RefCount = <3>
+Dereference Smart Pointer 1: {4,0}
+Dereference Smart Pointer 2: {4,0}
+Dereference Smart Pointer 3: {4,0}
+
+	Setting to a nulldata will have refcount to 0 and it isnt pointing to any data
+
+Testing SmartPtr Parametrized ctor with NULLdata
+SmartPtr Parametized Constructor from data pointer RefCount = <0>
+
+Testing SmartPtr Copy ctor with NULLdata SmartPtr
+SmartPtr Copy Constructor, RefCount = <0>
+
+	Assigning null data still has refcount to 0
+
+Testing SmartPtr Assignment with NULLdata SmartPtr
+SmartPtr Default Constructor for new allocation, RefCount = <1>
+SmartPtr Copy Assignment, RefCount = <0>
+
+	Destructors reverse order,Null objs only delete refcounts,others delete when refcount
+decrements to 0.
+
+End-of-Scope, Destructors called inreverse order of SmartPtr creation
+(spNull_assign, spNull_cpy, spNull, sp3, sp2, sp1): 
+SmartPtr Destructor, RefCount = <0>
+SmartPtr Destructor, RefCount = <0>
+SmartPtr Destructor, RefCount = <0>
+SmartPtr Destructor, RefCount = <3>
+SmartPtr Destructor, RefCount = <2>
+SmartPtr Destructor, RefCount = <1>

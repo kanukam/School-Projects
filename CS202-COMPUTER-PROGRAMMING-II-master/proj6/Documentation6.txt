@@ -1,0 +1,75 @@
+kanukam@kanukam-virtual-machine:~/Desktop$ cd Project6
+kanukam@kanukam-virtual-machine:~/Desktop/Project6$ make
+make: Nothing to be done for 'all'.
+kanukam@kanukam-virtual-machine:~/Desktop/Project6$ ./proj6
+
+////////////////////////////////
+/////   Constructor Tests  /////
+////////////////////////////////
+
+This is the default ctors which also calls the base ctor, derived classes call base ctors
+
+Testing Derived Default ctor
+Vehicle: Default-ctor
+Car: Default-ctor
+
+This is the parametized ctors, in my initializer list I had the derived use base parametized ctor
+
+Testing Derived Parametrized ctor
+Vehicle: Parametized-ctor
+Car: Parametized-ctor
+
+This is the copy ctors, in my initializer list I had the derived use base copy ctor
+Testing Derived Copy ctor
+Vehicle: Copy-ctor
+Car: Copy-ctor
+
+This is the assignment operator, in the function I called the base assignment operator too
+
+Testing Derived Assignment operator
+Vehicle: Assignment
+Car: Assignment
+
+/////////////////////////////////
+/////   Polymorphism Tests  /////
+/////////////////////////////////
+
+Uses the virtual move function of derived class as these are derived objects
+
+Testing VIRTUAL Move Function for DERIVED Class Objects
+Car: DRIVE to destination, with throttle at 75 
+
+Insertion operator of base but uses the virtual function in derived
+
+Testing Insertion operator<< Overload for BASE Class Objects
+Car: Throttle: 0 @ [39.54 119.82 4500]
+
+///////////////////////////////////////////////////
+/////   Polymorphic Base Class Pointer Tests  /////
+///////////////////////////////////////////////////
+
+Testing VIRTUAL Move Function on Base Class Pointers
+Car: DRIVE to destination, with throttle at 75 
+Car: DRIVE to destination, with throttle at 75 
+Car: DRIVE to destination, with throttle at 75 
+
+Since the base pointers point to derived, they use virtual functions of derived
+
+Testing Insertion operator<< Overload for Base Class Pointers
+Car: Throttle: 75 @ [37.77 122.42 52]
+Car: Throttle: 75 @ [37.77 122.42 52]
+Car: Throttle: 75 @ [37.77 122.42 52]
+
+////////////////////////////
+/////    Tests Done    /////
+////////////////////////////
+
+Since virtual dtors, base objects get destroyed as well
+
+Car: Dtor
+Vehicle: dtor
+Car: Dtor
+Vehicle: dtor
+Car: Dtor
+Vehicle: dtor
+kanukam@kanukam-virtual-machine:~/Desktop/Project6$ 

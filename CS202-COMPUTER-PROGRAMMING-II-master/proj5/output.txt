@@ -1,0 +1,98 @@
+For this documentation I will be analyzing my code output and explaining the process.
+
+/////    Base Tests    /////
+////////////////////////////
+
+This is the call meaning the default ctor was used and and object was created. The vehicle is the base class and the id number was initialized through an initializer list.
+
+Testing Base Default ctor
+Vehicle #0: Default-ctor
+
+This is the call to the insertion operator of the base class. It has garbage values for the lla as they were left unitialized.
+
+Testing Base insertion operator
+Vehicle #0 @ [2.6099e+20, 3.63931e-41, 3.34724e+21]
+
+This is the static that states the value of the next win number if a default or copy ctor is used
+Base idgen: 1
+
+Parameterized ctor, takes in vin number and position
+
+Testing Base Parametrized ctor
+Vehicle #99: Parametized-ctor
+Vehicle #99 @ [39.54, 119.82, 4500]
+
+Id stays the same as a parameterized ctor was used
+
+Base idgen: 1
+
+Testing Base Copy ctor
+Vehicle #1: Copy-ctor
+Vehicle #1 @ [39.54, 119.82, 4500]
+
+Base idgen: 2
+
+Testing Base Assignment operator
+Vehicle #0: Assignment
+Vehicle #0 @ [39.54, 119.82, 4500]
+
+Base idgen: 2
+
+Testing Base Move Function
+Vehicle #0: CANNOT MOVE - I DON'T KNOW HOW
+
+////////////////////////////
+/////   Derived Tests  /////
+////////////////////////////
+
+Testing Derived Default ctor
+Vehicle #2: Default-ctor
+Car #2: Default-ctor
+
+Testing Derived insertion operator
+Car #2 Plates: , Throttle: 0 throttle @ [0, 9.14768e-41, -1.70141e+38]
+
+Derived idgen: 3
+
+Testing Derived Parametrized ctor
+Vehicle #999: Parametized-ctor
+Car #999: Parametized-ctor
+Car #999 Plates: Gandalf, Throttle: 0 throttle @ [39.54, 119.82, 4500]
+
+Derived idgen: 3
+
+Copy constructor used here, in initializer list, base ctor is called first to copy base components
+
+Testing Derived Copy ctor
+Vehicle #3: Copy-ctor
+Car #3: Copy-ctor
+Car #3 Plates: Gandalf, Throttle: 0 throttle @ [39.54, 119.82, 4500]
+
+Derived idgen: 4
+Assignment operator for derived class, copies everything except base vin which is constant
+
+Testing Derived Assignment operator
+Car #2: Assignment
+Car #2 Plates: Gandalf, Throttle: 0 throttle @ [39.54, 119.82, 4500]
+
+Derived idgen: 4
+
+Move function, that drives at throttle of 75
+
+Testing Derived Move Function
+Car #2: DRIVE to destination, with throttle @75
+
+////////////////////////////
+/////    Tests Done    /////
+////////////////////////////
+What I noticed is base ctor gets implemented before derived ctor, dtor in reverse.
+
+Car #3: Dtor
+Vehicle #3: Dtor
+Car #999: Dtor
+Vehicle #999: Dtor
+Car #2: Dtor
+Vehicle #2: Dtor
+Vehicle #1: Dtor
+Vehicle #99: Dtor
+Vehicle #0: Dtor
