@@ -1,0 +1,440 @@
+Testing Bubble Sort (1000 values)
+Number of swaps: 258125 Number of comparisons: 498759
+Time of Bubble Sort: 24306 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 21 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4297 Comparisons: 8721
+Time of Merge Sort: 707 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4297 Comparisons: 13765
+Time of Merge Sort: 359 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 247085 Number of comparisons: 498870
+Time of Bubble Sort: 20026 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 17 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4336 Comparisons: 8693
+Time of Merge Sort: 590 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4336 Comparisons: 13737
+Time of Merge Sort: 328 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 247164 Number of comparisons: 498069
+Time of Bubble Sort: 24952 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 49 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4278 Comparisons: 8684
+Time of Merge Sort: 708 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4278 Comparisons: 13728
+Time of Merge Sort: 374 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 255963 Number of comparisons: 498680
+Time of Bubble Sort: 35471 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 50 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4335 Comparisons: 8720
+Time of Merge Sort: 602 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4335 Comparisons: 13764
+Time of Merge Sort: 375 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 242846 Number of comparisons: 498324
+Time of Bubble Sort: 25015 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 21 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4266 Comparisons: 8712
+Time of Merge Sort: 735 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4266 Comparisons: 13756
+Time of Merge Sort: 335 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 253927 Number of comparisons: 499329
+Time of Bubble Sort: 24611 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 50 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4289 Comparisons: 8664
+Time of Merge Sort: 676 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4289 Comparisons: 13708
+Time of Merge Sort: 362 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 263712 Number of comparisons: 498870
+Time of Bubble Sort: 25365 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 80 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4300 Comparisons: 8712
+Time of Merge Sort: 638 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4300 Comparisons: 13756
+Time of Merge Sort: 463 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 243175 Number of comparisons: 499310
+Time of Bubble Sort: 25086 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 57 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4323 Comparisons: 8765
+Time of Merge Sort: 617 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4323 Comparisons: 13809
+Time of Merge Sort: 520 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 253797 Number of comparisons: 498419
+Time of Bubble Sort: 58244 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 47 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4291 Comparisons: 8697
+Time of Merge Sort: 751 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4291 Comparisons: 13741
+Time of Merge Sort: 574 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (1000 values)
+Number of swaps: 248950 Number of comparisons: 498905
+Time of Bubble Sort: 25392 microseconds
+
+
+Testing Bubble Sort (1000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 999
+Time of Bubble Sort: 48 microseconds
+
+
+Testing Merge Sort (1000 values)
+Swaps: 4320 Comparisons: 8718
+Time of Merge Sort: 600 micseconds
+
+
+Testing Merge Sort (1000 values) When Sorted
+Swaps: 4320 Comparisons: 13762
+Time of Merge Sort: 440 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ make
+g++ -Wall -std=c++11  -c proj2.cpp -o proj2.o
+g++ -Wall -std=c++11  proj2.o Sorting.o -lm  -o Sorting
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 24891412 Number of comparisons: 49986485
+Time of Bubble Sort: 2462549 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 181 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59134 Comparisons: 120533
+Time of Merge Sort: 24203 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59134 Comparisons: 189541
+Time of Merge Sort: 4956 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 24862525 Number of comparisons: 49988895
+Time of Bubble Sort: 2208676 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 155 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59181 Comparisons: 120493
+Time of Merge Sort: 6257 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59181 Comparisons: 189501
+Time of Merge Sort: 4292 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 25003265 Number of comparisons: 49981634
+Time of Bubble Sort: 2095210 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 407 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59035 Comparisons: 120461
+Time of Merge Sort: 7501 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59035 Comparisons: 189469
+Time of Merge Sort: 4555 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 24772165 Number of comparisons: 49991997
+Time of Bubble Sort: 2343980 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 221 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59146 Comparisons: 120383
+Time of Merge Sort: 6736 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59146 Comparisons: 189391
+Time of Merge Sort: 3946 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 25201736 Number of comparisons: 49971129
+Time of Bubble Sort: 2126973 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 262 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59247 Comparisons: 120480
+Time of Merge Sort: 7696 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59247 Comparisons: 189488
+Time of Merge Sort: 4706 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 25269002 Number of comparisons: 49992372
+Time of Bubble Sort: 2160584 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 125 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59076 Comparisons: 120505
+Time of Merge Sort: 6104 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59076 Comparisons: 189513
+Time of Merge Sort: 4149 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 24898140 Number of comparisons: 49991084
+Time of Bubble Sort: 2654974 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 268 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59192 Comparisons: 120390
+Time of Merge Sort: 7435 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59192 Comparisons: 189398
+Time of Merge Sort: 4766 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 25020107 Number of comparisons: 49994139
+Time of Bubble Sort: 2372175 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 137 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59008 Comparisons: 120352
+Time of Merge Sort: 5905 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59008 Comparisons: 189360
+Time of Merge Sort: 3367 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 24730558 Number of comparisons: 49991919
+Time of Bubble Sort: 2423178 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 149 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59115 Comparisons: 120454
+Time of Merge Sort: 7083 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59115 Comparisons: 189462
+Time of Merge Sort: 4464 microseconds
+
+cs302@cs302-VirtualBox:~/Desktop/proj2$ ./Sorting
+
+Testing Bubble Sort (10000 values)
+Number of swaps: 24918683 Number of comparisons: 49994097
+Time of Bubble Sort: 2570699 microseconds
+
+
+Testing Bubble Sort (10000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 9999
+Time of Bubble Sort: 127 microseconds
+
+
+Testing Merge Sort (10000 values)
+Swaps: 59265 Comparisons: 120567
+Time of Merge Sort: 5846 micseconds
+
+
+Testing Merge Sort (10000 values) When Sorted
+Swaps: 59265 Comparisons: 189575
+Time of Merge Sort: 3775 microseconds
+
+Testing Bubble Sort (100000 values)
+Number of swaps: -1791513956 Number of comparisons: 704861918
+Time of Bubble Sort: 207 seconds
+
+
+Testing Bubble Sort (100000 values) When Sorted
+Number of swaps: 0 Number of comparisons: 99999
+Time of Bubble Sort: 0 seconds
+
+
+Testing Merge Sort (100000 values)
+Swaps: 759483 Comparisons: 1536149
+Time of Merge Sort: 0 seconds
+
+
+Testing Merge Sort (100000 values) When Sorted
+Swaps: 759483 Comparisons: 2390053
+Time of Merge Sort: 0 seconds
+

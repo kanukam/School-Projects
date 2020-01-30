@@ -1,0 +1,49 @@
+309 was inserted to the red black tree
+The color is black
+________________________________________________
+463 was inserted to the red black tree
+________________________________________________
+281 was inserted to the red black tree
+The color is black
+The parent of Node 281 is 309
+The parent color is black
+________________________________________________
+173 was inserted to the red black tree
+The color is red
+The parent of Node 173 is 281
+The parent color is black
+________________________________________________
+77 was inserted to the red black tree
+The color is black
+The parent of Node 77 is 173
+The parent color is red
+________________________________________________
+175 was inserted to the red black tree
+The color is red
+The parent of Node 175 is 281
+The parent color is black
+________________________________________________
+375 was inserted to the red black tree
+The color is red
+The parent of Node 375 is 463
+The parent color is black
+________________________________________________
+494 was inserted to the red black tree
+The color is black
+The parent of Node 494 is 463
+The parent color is black
+________________________________________________
+301 was inserted to the red black tree
+The color is black
+The parent of Node 301 is 281
+The parent color is black
+________________________________________________
+12 was inserted to the red black tree
+The color is red
+The parent of Node 12 is 77
+The parent color is black
+________________________________________________
+Inorder Traversal before 4th element deletion
+12 77 173 175 281 301 309 375 463 494 
+Inorder Traversal after 4th element deletion
+12 77 175 281 301 309 375 463 494 cs302@cs302-VirtualBox:~/Desktop/proj5$ 

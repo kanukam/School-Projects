@@ -1,0 +1,47 @@
+Testing linked implementation
+
+Commands:
+  H  : Help (displays this message)
+  +x : Push x
+  -  : Pop
+  C  : Clear
+  E  : Empty stack?
+  F  : Full stack?
+  Q  : Quit the test program
+
+Empty Stack
+
+Command: +x
+Push x
+x 
+
+Command: +x
+Push x
+x x 
+
+Command: +x
+Push x
+x x x 
+
+Command: -
+Popped x
+x x 
+
+Command: E
+Stack is NOT empty
+x x 
+
+Command: F
+Stack is NOT full
+x x 
+
+Command: C
+Clear the stack
+Empty Stack
+
+Command: E
+Stack is empty
+Empty Stack
+
+Command: Q
+

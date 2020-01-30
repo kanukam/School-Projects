@@ -1,0 +1,2 @@
+proj6: proj6.cpp 
+	g++ -o proj6 proj6.cpp
