@@ -4,7 +4,6 @@
 # Purpose: Creating a relational database management system
 import datahelper
 import queries
-import sys
 
 # set of key query words
 phrases = {'update', 'select', 'delete', 'alter', 'insert'}
@@ -15,7 +14,7 @@ def main():
           " enter .EXIT to end program")
     # Continues until exit command entered
     while True:
-        line = sys.stdin.readline().rstrip()
+        line = input().rstrip()
         # Exit condition
         if line.lower() == ".exit;" or line.lower() == ".exit":
             break
