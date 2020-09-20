@@ -15,8 +15,6 @@ Can handle:
   - Python3
 
 ### Run Instructions
-  - standard input: python3 database.py < (test script) (enter)
-    Or
-  - Python 3 interpreter
+  - standard input: python3 database.py < (test script) (enter) Or Python 3 interpreter
   
 Linux and Windows compatible.
