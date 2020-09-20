@@ -1,4 +1,4 @@
-Kennedy Anukam's relational database management system that can take in sqlite3 statements as input.
+# Sqlite3 Emulator
 
 Can handle:
   - Creating a database
@@ -13,3 +13,10 @@ Can handle:
 
 ### Tech
   - Python3
+
+### Run Instructions
+  - standard input: python3 database.py < (test script) (enter)
+    Or
+  - Python 3 interpreter
+  
+Linux and Windows compatible.
