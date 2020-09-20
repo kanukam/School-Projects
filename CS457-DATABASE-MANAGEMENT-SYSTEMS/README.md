@@ -1,7 +1,7 @@
 Kennedy Anukam's relational database management system that can take in sqlite3 statements as input.
 
 Can handle:
-1. Creating a database
+- Creating a database
 2. Deleting a database
 3. Creating a table
 4. Deleting a table
